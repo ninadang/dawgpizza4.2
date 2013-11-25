@@ -1,0 +1,262 @@
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One|Ubuntu+Condensed|Pontano+Sans);
+
+.container {
+	padding: 30px;
+}
+
+body {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 21px;
+	background-image: url(../img/ps_neutral.png);
+}
+
+.orderbtn {
+	text-decoration: none;
+	color: #9A1214;
+	text-align: center;
+}
+
+.orderbtn:hover {
+	text-decoration: none;
+	background-color: #8243D6;
+	color: #FFF;
+}
+
+.time {
+	color: #8243D6;
+}
+
+.logo {
+	margin-left: 40%;
+}
+
+/*Header for responsive mode*/
+h1 {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	opacity: 0;
+	margin-top: 5px;
+}
+
+/*About Us Headers*/
+h2 {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.cart-form {
+	margin-top: 30px;
+}
+
+/*Top row and menu formatting*/
+.row {
+	margin-top: 5px;
+	text-align: center;
+}
+
+.orderDetails {
+	text-align: left;
+	margin-left: 13%;
+	width: 83%;
+}
+
+.col-md-11 {
+	text-align: left;
+	margin-left: 8%;
+	width: 83%;
+}
+
+.col-md-6 {
+	margin-left: 7%;
+}
+
+/*Street Address*/
+.address {
+	color: #8243D6;
+}
+
+/*Street Address Hover Effect*/
+.address:hover {
+	text-decoration: none;
+	background-color: #8243D6;
+	color: #FFF;
+}
+
+/*Nav Bar*/
+.navbar-inverse {
+	max-width: 900px;
+	margin-left: 12%;
+	padding-bottom: 0px;
+}
+
+/*Main image*/
+.photo {
+	float: left; 
+	position: relative; 
+	margin-left: 12%;
+}
+
+/*Sizes*/
+.size {
+	text-align: center;
+} */
+
+.title {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+/*MENU*/
+.food {
+	text-align: center;
+}
+
+.pizza-s {
+	padding: 6px;
+}
+
+.pizza-m {
+	padding: 6px;
+}
+
+.pizza-l {
+	padding: 6px;
+}
+
+.name-dr {
+	padding: 6px;
+}
+
+.name-de {
+	padding: 6px;
+}
+
+.food-dr {
+	text-align: center;
+}
+
+.food-de {
+	text-align: center;
+}
+
+.name {
+	font-size: 25px;
+}
+
+/*Photo Overlay*/
+.description {
+	position: absolute; 
+	bottom: 125px; 
+	left: 0px;
+	width: 100%;
+	background-color:black;
+	padding: 20px;
+	font-size: 22px;
+	font-family: 'Pontano Sans', sans-serif;
+	text-align: center;
+	color: #FFF;
+	opacity: 0.5; 
+	filter:alpha(opacity=50); 
+}
+
+/*Overlay Text*/
+.description_content {
+	padding: 10px;
+	margin: 0px;
+}
+
+/*YouTube Dropdown Button*/
+button.btn.btn-danger {
+	margin-top: 30px;
+	margin-left: 43%;
+	font-size: 17px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#cart-container {
+	text-align: left;
+}
+
+#total-row {
+	text-align: left;
+}
+
+iframe {
+	margin-left: 25%;
+}
+
+/*Footer*/
+.footer {
+	margin-top: 70px;
+	margin-left: 1%;
+	padding: 15px;
+	font-size: 16px;
+	text-align: center;
+}
+
+/*Jobs*/
+.phrase {
+	text-align: center;
+}
+
+a {
+	cursor: pointer;
+}
+
+
+/*Responsive Settings*/
+@media (max-width: 767px) {
+    .content-box {
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    h1 {
+    	position: static;
+        line-height: 2em;
+        text-align: center;
+        color: #000;
+        opacity: 100;
+
+    }
+
+	.row {
+		margin-top: 15px;
+		margin-left: 5%;
+	}
+
+
+    .photo {
+    	display: none;
+    }
+
+    .col {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #btn-danger {
+		margin-top: 30px;
+		margin-left: 7%;
+		font-size: 12px;
+		font-family: 'Ubuntu Condensed', sans-serif;
+	}	
+
+	.footer {
+		margin-top: 70px;
+		margin-left: 7%;
+		padding: 15px;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 479px) {
+    body {
+        font-size: 16px;
+    }
+}
+
